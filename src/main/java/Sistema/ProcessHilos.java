@@ -11,7 +11,8 @@ public class ProcessHilos extends Thread{
             System.out.println("Contando");
 
             try{
-                Thread.currentThread().sleep(500);
+                Thread.currentThread();
+                Thread.sleep(500);
             }catch (Exception e){
                 System.out.println(e);
             }
