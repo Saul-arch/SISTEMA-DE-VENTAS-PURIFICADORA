@@ -354,6 +354,11 @@ public class initComponentesHome {
                 btnInventario.setContentAreaFilled(false);
                 btnInventario.setForeground(Color.BLACK);
                 pnlActiRecientes.setVisible(false);
+
+                JOptionPane.showMessageDialog(null, "CLIENYES");
+
+            
+
             }
         });
         File rutaImgColaboradores = new File("C:\\Users\\pc\\IdeaProjects\\Prueba_Pur\\Imagenes\\Colabo.svg");

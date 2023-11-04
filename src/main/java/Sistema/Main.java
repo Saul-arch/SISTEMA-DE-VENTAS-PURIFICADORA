@@ -77,5 +77,4 @@ public class Main {
         initComponentesHome iniciar = new initComponentesHome(jfVentanaPrincipal, st);
 
     }
-
 }
