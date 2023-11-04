@@ -873,7 +873,7 @@ public class initComponentesHome {
             MoreInfo.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    //consultInit.infoRecent();
+                    consultInit.infoRecent();
 
                 }
             });

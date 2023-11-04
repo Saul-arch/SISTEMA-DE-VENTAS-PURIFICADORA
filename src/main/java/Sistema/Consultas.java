@@ -309,6 +309,35 @@ public class Consultas {
 
     }
 
+    public void infoRecent(){
+        System.out.println("INFO");
+        JDialog dlgInfo = new JDialog();
+        JLabel lblProdServ = new JLabel("Producto;");
+        JLabel lblPrecio = new JLabel("Precio");
+        JLabel lblHora = new JLabel("Hora");
+        JLabel lblComprador = new JLabel("Comprador");
+
+        lblProdServ.setSize(150, 20);
+        lblProdServ.setLocation(0,0);
+        lblPrecio.setSize(150, 20);
+        lblPrecio.setLocation(0,30);
+        lblHora.setSize(150, 20);
+        lblHora.setLocation(0,60);
+        lblComprador.setSize(150, 20);
+        lblComprador.setLocation(0,90);
+
+        dlgInfo.setSize(650, 600);
+        dlgInfo.setVisible(true);
+        dlgInfo.setLayout(null);
+        dlgInfo.setTitle("Detalles");
+        dlgInfo.setModal(true);
+        dlgInfo.setResizable(false);
+        dlgInfo.add(lblProdServ);
+        dlgInfo.add(lblPrecio);
+        dlgInfo.add(lblHora);
+        dlgInfo.add(lblComprador);
+    }
+
 
 
 }
