@@ -426,27 +426,26 @@ public class initComponentesHome {
 
 
         lblIngresosBrut.setSize(200, 25);
-        lblIngresosBrut.setForeground(Color.red);
+        lblIngresosBrut.setForeground(Color.black);
         lblIngresosBrut.setLocation(200, 60);
         lblIngresosBrut.setFont(new Font("Arial", Font.ROMAN_BASELINE, 12));
 
         lblIngresosNeto.setSize(200, 25);
-        lblIngresosNeto.setForeground(Color.red);
+        lblIngresosNeto.setForeground(Color.black);
         lblIngresosNeto.setLocation(450, 60);
         lblIngresosNeto.setFont(new Font("Arial", Font.ROMAN_BASELINE, 12));
 
         lblCantBrut.setSize(200, 30);
-        lblCantBrut.setForeground(Color.red);
+        lblCantBrut.setForeground(Color.black);
         lblCantBrut.setLocation(200, 85);
         lblCantBrut.setFont(new Font("Arial", Font.ROMAN_BASELINE, 30));
-
         lblCantidadNeta.setSize(200, 30);
-        lblCantidadNeta.setForeground(Color.red);
+        lblCantidadNeta.setForeground(Color.black);
         lblCantidadNeta.setLocation(450, 85);
         lblCantidadNeta.setFont(new Font("Arial", Font.ROMAN_BASELINE, 30));
 
         lblPerdidas.setSize(200, 25);
-        lblPerdidas.setForeground(Color.red);
+        lblPerdidas.setForeground(Color.black);
         lblPerdidas.setLocation(700, 60);
         lblPerdidas.setFont(new Font("Arial", Font.ROMAN_BASELINE, 12));
 
